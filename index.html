@@ -5,19 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo De Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Jogo De Adivinhação</h1>
-        <h4>Olá Desafiante, este é um jogo simples, eu o <strong>Gênio dos números</strong>,<br>
-            irei pensar em um número de 1 à 100 e você terá 10 tentativas para acertar, e se conseguir,<br>
-            eu te concederei um desejo. Oque me diz? Aceita o desafio?
-        </h4>
-    </header>
     <main>
-        <label for="inPalpite">Qual número eu estou pensando? </label>
-        <input type="number" id="inPalpite">
+        <header>
+            <h1>Jogo De Adivinhação</h1>
+            <h4>Olá Desafiante, este é um jogo simples, eu o<br>
+                <strong>Gênio dos números</strong>,<br>
+                irei pensar em um número de 1 à 100 e você terá 10 tentativas para acertar, e se conseguir,<br>
+                eu te concederei um desejo. Oque me diz? Aceita o desafio?
+            </h4>
+        </header>
+
+        <div class="question">
+            <label for="inPalpite">Qual número eu estou pensando? </label>
+        </div>
+
+        <div class="input">
+            <input type="number" id="inPalpite">
+            <button type="button" onclick="">Chutar</button>
+        </div>
+        </div>
         <p> Você tem 10 tentativas.</p>
         <p id="outDica">Aqui fica sua dica</p>
     </main>
